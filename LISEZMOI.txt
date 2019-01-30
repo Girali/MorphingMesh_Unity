@@ -1,0 +1,16 @@
+MORPHING BASIQUE :
+
+Controle :
+
+Tous sur l'interface
+Il est pas possible de changer de Objet a morpher via  l'UI 
+Il faut le faire dans le projet au niveau du gameobject Morphing A to B dans le script Morphing
+Morphing sans dilocation des (Toggle DISLOC) incomplet ne foctionne pas.
+
+Pistes de recherche qui n'ont pas abouti :
+
+Morphing sans dilocation: le deplacement des triangle se fait sans separation ils se depalcent tous cote a cote
+Morphing sans dislocation fonctionnement : scan des objet de haut en bas et desplacer les vertices sur les verices correspond
+exemple : le point le plus haut de A se retrouve au point le haut de B 
+
+Il est possible de morpher tout les objets de toute tailles au niveau des polygones sauf si la structure en triangle est fait en quad (probleme de compatibilite de certains fichiers FBX)
